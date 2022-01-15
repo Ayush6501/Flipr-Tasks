@@ -1,5 +1,21 @@
-GET http://localhost:5000/api/0860465040455275
+GET http://localhost:5000/api
 
 ###
 
 GET http://localhost:5000/api/Hi/Hello/Ho
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address":
+    [
+      "Plot No:1, Sadarpur, Sector-45, Noida, Uttar Pradesh 201303, India",
+      "New Link Road, Behind Infinity Mall, Andheri West, Mumbai, Maharashtra 400053, India",
+      "D-002, Sector 75 Road, Sector 75, Noida, Uttar Pradesh 201301, India",
+      "Ambrahi Village, Sector 19 Dwarka, Dwarka, Delhi, 110075 India",
+      "Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011 India"
+    ]
+}

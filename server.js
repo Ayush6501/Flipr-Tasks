@@ -2,7 +2,7 @@ require('dotenv').config()
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose')
-
+const bodyParser = require('body-parser')
 const apiRoutes = require('./routes/api');
 
 mongoose.connect(process.env["MONGODB_KEY"], { useNewUrlParser: true})
@@ -11,6 +11,7 @@ db.on('error', (err) => console.log(err))
 db.once('open', () => console.log('Connected to MongoDB'))
 
 app.use(express.json())
+app.use(bodyParser.json())
 app.use('/api', apiRoutes)
 
 app.listen(5000, () => {
