@@ -1,85 +1,83 @@
 require('dotenv').config()
 const express = require('express');
 const router = express.Router()
-const ApiData = require('../model/model')
 const mongoose = require('mongoose')
 const NodeGeocoder = require('node-geocoder');
 
+mongoose.connect(process.env["MONGODB_KEY"], { useNewUrlParser: true})
 const db = mongoose.connection
+db.on('error', (err) => console.log(err))
+db.once('open', () => console.log('Connected to MongoDB'))
 
-// router.get('/', async (req, res) => {
-//     let devices = [];
-//     let deviceLocation = []
-//
-//     try {
-//         const id = req.params.id
-//
-//         const devicesCollection = db.collection('devices')
-//         const statusCollection = db.collection('status')
-//         const data = await devicesCollection.find().sort({createdAt: -1}).limit(30).toArray()
-//         data?.forEach((info) => devices.push(info.imei))
-//
-//         // devices.forEach((device) => {
-//         //     const location = statusCollection.find({imei: device}).limit(50).toArray()
-//         //     console.log(location)
-//         // })
-//
-//         console.log(devices)
-//         console.log(devices[0])
-//         console.log(typeof (devices[0]))
-//
-//         for (let i = 0; i < devices.length; i++) {
-//             let location = await statusCollection.find({imei: devices[0]}).limit(50).toArray()
-//             console.log(location)
-//             deviceLocation.push(location)
-//         }
-//
-//         console.log(deviceLocation)
-//         res.json(deviceLocation)
-//     } catch (err) {
-//         res.status(500).json({ message: err.message });
-//     }
-// })
 
-router.get('/', async (req, res) => {
+const findLocation = (devices, statusCollection) => {
+    devices.forEach(async (device) => {
+        const statuses = await statusCollection.find({id: device }).toArray()
+    })
+}
+
+router.post('/:c1', async(req, res) => {
+    const uri = req.body.uri
+    const collection1 = req.params.c1
+    const collection2 = req.query.c2
+    console.log(uri, collection1, collection2)
+
+    let devices = []
+    let finalResult = []
+
     try {
-        // const collection = db.collection('devices')
-        // const data = await collection.find().sort({createdAt: -1}).limit(50).toArray()
-        const collection = db.collection('status')
-        const data = await collection.find({"imei": "0860465040455275"}).sort({createdAt: -1}).toArray()
-        console.log(data)
-        res.json(data)
-    } catch (err) {
-        res.status(500).json({ message: err.message });
+        const devicesCollection = db.collection(collection1)
+        const data = await devicesCollection.find().sort({ createdAt: -1}).limit(30).toArray()
+        data.forEach((device) => {
+            devices.push(device.id)
+        })
+
+
+        const statusCollection = await db.collection(collection2)
+        findLocation(devices, statusCollection)
+
+        res.send({
+            "name": "Ayush Majumdar",
+            "contact": "1032190909@mitwpu.edu.in",
+            "deviceID": devices,
+            "message": "No matching status found for latest device IDs"
+        })
+    } catch (e) {
+        res.status(500).json({ message: e.message });
     }
 })
 
 const options = {
     provider: 'google',
-
     fetch: "",
     apiKey: process.env["GOOGLE_KEY"],
     formatter: null
 };
 const geocoder = NodeGeocoder(options);
 
+const getLatLong = async (address) => {
+    const result = await geocoder.geocode(address)
+    const latitude = result[0].latitude
+    const longitude = result[0].longitude
+    return [latitude, longitude]
+}
+
 router.post('/', (req, res) => {
     const addresses = req.body.address
-    const resultAddress = []
+    let resultAddress = []
 
-    try {
-        addresses.forEach(async (address) => {
-            const result = await geocoder.geocode(address)
-            const latitude = result[0].latitude
-            const longitude = result[0].longitude
-            const finalAddress = { add: address, location: [latitude, longitude]}
+    addresses.forEach(async (address) => {
+        try {
+            const latLong = await getLatLong(addresses)
+            const finalAddress = { add: address, location: latLong}
             console.log(finalAddress)
             resultAddress.push(finalAddress)
-        })
-    } catch (err) {
-        res.status(500).json({message: err.message});
-    }
-    res.end('POST request successfull');
+        } catch (e) {
+            console.log(e)
+        }
+    })
+
+    res.end("Post sent successfully!");
 })
 
 module.exports = router
