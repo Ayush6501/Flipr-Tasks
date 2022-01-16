@@ -1,0 +1,212 @@
+[
+  {
+    "_id": "61c70d131e72490f041498ca",
+    "id": "WWA396",
+    "client": "intracity",
+    "imei": "0867946050204755",
+    "createdAt": "2021-12-25T12:22:43.516Z"
+  },
+  {
+    "_id": "61c70d131e72490f041498cb",
+    "id": "WWA397",
+    "client": "intracity",
+    "imei": "0867946050204821",
+    "createdAt": "2021-12-25T12:22:43.516Z"
+  },
+  {
+    "_id": "61c70d131e72490f041498cc",
+    "id": "WWA398",
+    "client": "intracity",
+    "imei": "0867946050204912",
+    "createdAt": "2021-12-25T12:22:43.516Z"
+  },
+  {
+    "_id": "61c70d131e72490f041498c7",
+    "id": "WWA393",
+    "client": "intracity",
+    "imei": "0867946050204763",
+    "createdAt": "2021-12-25T12:22:43.516Z"
+  },
+  {
+    "_id": "61c70d131e72490f041498cd",
+    "id": "WWA399",
+    "client": "intracity",
+    "imei": "0867946050213004",
+    "createdAt": "2021-12-25T12:22:43.516Z"
+  },
+  {
+    "_id": "61c70d131e72490f041498c8",
+    "id": "WWA394",
+    "client": "intracity",
+    "imei": "0867946050212774",
+    "createdAt": "2021-12-25T12:22:43.516Z"
+  },
+  {
+    "_id": "61c70d131e72490f041498c9",
+    "id": "WWA395",
+    "client": "intracity",
+    "imei": "0867946050200753",
+    "createdAt": "2021-12-25T12:22:43.516Z"
+  },
+  {
+    "_id": "61c70d131e72490f041498c6",
+    "id": "WWA392",
+    "client": "intracity",
+    "imei": "0867946050202551",
+    "createdAt": "2021-12-25T12:22:43.515Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a67718",
+    "id": "WWA384",
+    "client": "intracity",
+    "imei": "0867946050202718",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a6770f",
+    "id": "WWA375",
+    "client": "intracity",
+    "imei": "0867946050204516",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676ea",
+    "id": "WWA253",
+    "client": "intracity",
+    "imei": "0867946050212188",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676e7",
+    "id": "WWA250",
+    "client": "intracity",
+    "imei": "0867946050205349",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676ee",
+    "id": "WWA257",
+    "client": "intracity",
+    "imei": "0867946050200423",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676f3",
+    "id": "WWA262",
+    "client": "intracity",
+    "imei": "0867946050203773",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676f2",
+    "id": "WWA261",
+    "client": "intracity",
+    "imei": "0867946050207733",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676e8",
+    "id": "WWA251",
+    "client": "intracity",
+    "imei": "0867946050202155",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a6770d",
+    "id": "WWA373",
+    "client": "intracity",
+    "imei": "0867946050201637",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a67708",
+    "id": "WWA368",
+    "client": "intracity",
+    "imei": "0867946050203963",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a67704",
+    "id": "WWA364",
+    "client": "intracity",
+    "imei": "0867946050204615",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a67707",
+    "id": "WWA367",
+    "client": "intracity",
+    "imei": "0867946050204524",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676e9",
+    "id": "WWA252",
+    "client": "intracity",
+    "imei": "0867946050202163",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676fc",
+    "id": "WWA356",
+    "client": "intracity",
+    "imei": "0867946050202379",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a67700",
+    "id": "WWA360",
+    "client": "intracity",
+    "imei": "0867946050200340",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676f1",
+    "id": "WWA260",
+    "client": "intracity",
+    "imei": "0867946050212311",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676f7",
+    "id": "WWA351",
+    "client": "intracity",
+    "imei": "0867946050211107",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676ef",
+    "id": "WWA258",
+    "client": "intracity",
+    "imei": "0867946050210364",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676e3",
+    "id": "WWA246",
+    "client": "intracity",
+    "imei": "0867946050207618",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676fb",
+    "id": "WWA355",
+    "client": "intracity",
+    "imei": "0867946050200712",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676e5",
+    "id": "WWA248",
+    "client": "intracity",
+    "imei": "0867946050209697",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  },
+  {
+    "_id": "61c1a6be1b1b572fc8a676ed",
+    "id": "WWA256",
+    "client": "intracity",
+    "imei": "0867946050201314",
+    "createdAt": "2021-12-21T10:04:46.455Z"
+  }
+]

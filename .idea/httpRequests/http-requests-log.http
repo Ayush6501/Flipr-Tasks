@@ -1,0 +1,524 @@
+GET http://localhost:5000/api/devices?c2=status
+
+<> 2022-01-16T120233.404.html
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address":
+    [
+      "Plot No:1, Sadarpur, Sector-45, Noida, Uttar Pradesh 201303, India",
+      "New Link Road, Behind Infinity Mall, Andheri West, Mumbai, Maharashtra 400053, India",
+      "D-002, Sector 75 Road, Sector 75, Noida, Uttar Pradesh 201301, India",
+      "Ambrahi Village, Sector 19 Dwarka, Dwarka, Delhi, 110075 India",
+      "Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011 India"
+    ]
+}
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address":
+    [
+      "Plot No:1, Sadarpur, Sector-45, Noida, Uttar Pradesh 201303, India",
+      "New Link Road, Behind Infinity Mall, Andheri West, Mumbai, Maharashtra 400053, India",
+      "D-002, Sector 75 Road, Sector 75, Noida, Uttar Pradesh 201301, India",
+      "Ambrahi Village, Sector 19 Dwarka, Dwarka, Delhi, 110075 India",
+      "Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011 India"
+    ]
+}
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address":
+    [
+      "Plot No:1, Sadarpur, Sector-45, Noida, Uttar Pradesh 201303, India",
+      "New Link Road, Behind Infinity Mall, Andheri West, Mumbai, Maharashtra 400053, India",
+      "D-002, Sector 75 Road, Sector 75, Noida, Uttar Pradesh 201301, India",
+      "Ambrahi Village, Sector 19 Dwarka, Dwarka, Delhi, 110075 India",
+      "Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011 India"
+    ]
+}
+
+<> 2022-01-16T105704.200.txt
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address":
+    [
+      "Plot No:1, Sadarpur, Sector-45, Noida, Uttar Pradesh 201303, India",
+      "New Link Road, Behind Infinity Mall, Andheri West, Mumbai, Maharashtra 400053, India",
+      "D-002, Sector 75 Road, Sector 75, Noida, Uttar Pradesh 201301, India",
+      "Ambrahi Village, Sector 19 Dwarka, Dwarka, Delhi, 110075 India",
+      "Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011 India"
+    ]
+}
+
+<> 2022-01-16T105638.200.json
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address":
+    [
+      "Plot No:1, Sadarpur, Sector-45, Noida, Uttar Pradesh 201303, India",
+      "New Link Road, Behind Infinity Mall, Andheri West, Mumbai, Maharashtra 400053, India",
+      "D-002, Sector 75 Road, Sector 75, Noida, Uttar Pradesh 201301, India",
+      "Ambrahi Village, Sector 19 Dwarka, Dwarka, Delhi, 110075 India",
+      "Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011 India"
+    ]
+}
+
+<> 2022-01-16T105604.200.json
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address":
+    [
+      "Plot No:1, Sadarpur, Sector-45, Noida, Uttar Pradesh 201303, India",
+      "New Link Road, Behind Infinity Mall, Andheri West, Mumbai, Maharashtra 400053, India",
+      "D-002, Sector 75 Road, Sector 75, Noida, Uttar Pradesh 201301, India",
+      "Ambrahi Village, Sector 19 Dwarka, Dwarka, Delhi, 110075 India",
+      "Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011 India"
+    ]
+}
+
+<> 2022-01-16T105435.200.json
+
+###
+
+GET http://localhost:5000/api/devices?c2=status
+
+<> 2022-01-16T002500.404.html
+
+###
+
+GET http://localhost:5000/api/devices?status=
+
+<> 2022-01-15T235829.404.html
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address":
+    [
+      "Plot No:1, Sadarpur, Sector-45, Noida, Uttar Pradesh 201303, India",
+      "New Link Road, Behind Infinity Mall, Andheri West, Mumbai, Maharashtra 400053, India",
+      "D-002, Sector 75 Road, Sector 75, Noida, Uttar Pradesh 201301, India",
+      "Ambrahi Village, Sector 19 Dwarka, Dwarka, Delhi, 110075 India",
+      "Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011 India"
+    ]
+}
+
+<> 2022-01-15T230844.200.txt
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address":
+    [
+      "Plot No:1, Sadarpur, Sector-45, Noida, Uttar Pradesh 201303, India",
+      "New Link Road, Behind Infinity Mall, Andheri West, Mumbai, Maharashtra 400053, India",
+      "D-002, Sector 75 Road, Sector 75, Noida, Uttar Pradesh 201301, India",
+      "Ambrahi Village, Sector 19 Dwarka, Dwarka, Delhi, 110075 India",
+      "Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011 India"
+    ]
+}
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T230341.200.json
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T230153.200.json
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T225926.200.txt
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T225845.200.json
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T225832.500.json
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T225459.200.txt
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T225404.200.txt
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T225340.200.txt
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T225241.200.html
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T225138.200.html
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T224906.200.html
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T224553.200.html
+
+###
+
+POST http://localhost:5000/api
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T224247.200.html
+
+###
+
+GET http://localhost:5000/api
+
+<> 2022-01-15T224235.200.json
+
+###
+
+POST http://localhost:5000
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T213647.404.html
+
+###
+
+POST http://localhost:5000
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T213504.404.html
+
+###
+
+POST http://localhost:5000/geocode
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T213449.404.html
+
+###
+
+POST http://localhost:5000/geocode
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T213212.404.html
+
+###
+
+POST http://localhost:5000/geocode
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T213134.404.html
+
+###
+
+POST http://localhost:5000/geocode
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T213002.404.html
+
+###
+
+POST http://localhost:5000/geocode
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T212945.404.html
+
+###
+
+POST http://localhost:5000/geocode
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T212943.404.html
+
+###
+
+POST http://localhost:5000/geocode
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T212539.404.html
+
+###
+
+POST http://localhost:5000/api/
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T212506.404.html
+
+###
+
+GET http://localhost:5000/api
+
+<> 2022-01-15T212047.404.html
+
+###
+
+POST http://localhost:5000/api/
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T212013.404.html
+
+###
+
+POST http://localhost:5000/api/
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T211443.404.html
+
+###
+
+POST http://localhost:5000/api/
+Content-Type: application/json
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T211314.404.html
+
+###
+
+POST http://localhost:5000/api/
+
+{
+    "address": ["Plot No 53, Block B, Sector 56, Gurugram, Haryana 122011, India"]
+}
+
+<> 2022-01-15T211218.404.html
+
+###
+
+GET http://localhost:5000/api/0860465040455275
+
+<> 2022-01-15T180856.200.json
+
+###
+
+GET http://localhost:5000/api/0860465040455275
+
+<> 2022-01-15T180759.200.json
+
+###
+
+GET http://localhost:5000/api/0860465040455275
+
+<> 2022-01-15T180309.200.json
+
+###
+
+GET http://localhost:5000/api/0860465040455275
+
+<> 2022-01-15T180238.200.json
+
+###
+
+GET http://localhost:5000/api/0860465040455275
+
+<> 2022-01-15T180213.200.json
+
+###
+
+GET http://localhost:5000/api/0860465040455275
+
+<> 2022-01-15T175811.200.json
+
+###
+
+GET http://localhost:5000/api/0860465040455275
+
+<> 2022-01-15T175502.200.json
+
+###
+
+GET http://localhost:5000/api/0860465040455275
+
+<> 2022-01-15T175424.200.json
+
+###
+
+GET http://localhost:5000/api/0860465040455275
+
+<> 2022-01-15T175308.200.json
+
+###
+
+GET http://localhost:5000/api/0860465040455275
+
+<> 2022-01-15T174606.200.json
+
+###
+
