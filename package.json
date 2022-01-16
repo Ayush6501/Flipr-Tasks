@@ -12,12 +12,12 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.1",
+    "dotenv": "^12.0.3",
     "express": "^4.17.2",
     "mongoose": "^6.1.6",
     "node-geocoder": "^3.28.0"
   },
   "devDependencies": {
-    "dotenv": "^11.0.0",
     "nodemon": "^2.0.15"
   }
 }
