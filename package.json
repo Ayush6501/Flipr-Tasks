@@ -4,6 +4,8 @@
   "description": "rest API",
   "main": "index.js",
   "scripts": {
+    "serve": "node server.js",
+    "start": "node server.js",
     "devStart": "nodemon server.js"
   },
   "author": "",
